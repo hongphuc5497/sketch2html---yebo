@@ -48,7 +48,7 @@ button {
 	margin: 0 auto;
 }
 
-/* !Header */
+/* !Header - Menu */
 .header {
 	min-height: 80rem;
 	display: flex;
@@ -95,4 +95,38 @@ button {
 	text-decoration: none;
 	font-size: 1.3rem;
 	font-weight: 700;
+}
+
+/* !Feature - Header */
+.feature__header {
+	padding: 11rem 1.4rem 14rem;
+
+	background-color: var(--bg-light);;
+}
+
+.feature__img-top {
+	margin: 0 auto 3rem;
+}
+
+.feature__heading {
+	margin-bottom: 2rem;
+
+	color: var(--heading);
+
+	font-size: 1.8rem;
+	line-height: 1.6;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+
+.feature__header-desc {
+	max-width: 106rem;
+	margin: 0 auto;
+
+	color: var(--text);
+
+	font-size: 1.8rem;
+	line-height: 1.6;
+	text-align: center;
 }

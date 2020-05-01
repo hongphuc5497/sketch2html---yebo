@@ -11,7 +11,7 @@ app
 |- styles
 |    |- fontawesome.css
 |    |- reset.css
-|    `- styles.css
+|    `- style.css
 |
 `- index.html
 ```
@@ -26,4 +26,9 @@ app
         li.nav__item * 6
           a.nav__link
             img.nav__logo * 1
+  div.feature
+    div.feature__header
+      img.feature__img-top
+      h2.feature__heading
+      p.feature__header-desc
 ```
