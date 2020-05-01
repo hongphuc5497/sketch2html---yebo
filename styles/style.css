@@ -33,7 +33,7 @@ button {
 	font-family: "Lato", sans-serif;
 }
 /* Your style start from here */
-/* :root {
+:root {
   --primary: #70c6a6;
   --heading: #353738;
   --text: #848789;
@@ -46,4 +46,53 @@ button {
 .wrapper {
 	max-width: 160rem;
 	margin: 0 auto;
-} */
+}
+
+/* !Header */
+.header {
+	min-height: 80rem;
+	display: flex;
+	justify-content: center;
+
+	background-image: url('../images/img-bg-header.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.nav {
+	margin-top: 3rem;
+}
+
+.nav__list {
+	display: flex;
+	align-items: center;
+}
+
+.nav__item {
+	position: relative;
+	padding: 0 4rem;
+}
+
+.nav__item:first-child:after,
+.nav__item:nth-child(4):after {
+	content: ".";
+	position: absolute;
+
+	right: 0;
+	bottom: 0;
+	font-size: 2rem;
+}
+
+.nav__link {
+	display: block;
+	position: relative;
+
+	color: var(--heading);
+
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 1.3rem;
+	font-weight: 700;
+}
