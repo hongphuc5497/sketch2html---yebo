@@ -32,6 +32,17 @@ app
       h2.feature__heading
       p.feature__header-desc
     ul.feature__list
+      li.feature__item * 2
+        div.feature__item-img
+          img.img__bg
+          img.img__brand
+        div.feature__item-content
+          div.feature__item-content-top
+            img.feature__img-top
+            h3.feature__heading
+            p.feature__item-text
+          div.feature__item-content-bottom
+            img.img__bg
       li.feature__item
         div.feature__item-img
           img.img__bg
@@ -43,4 +54,6 @@ app
             p.feature__item-text
           div.feature__item-content-bottom
             img.img__bg
+        div.feature__item-img
+          img.img__bg
 ```
