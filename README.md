@@ -16,7 +16,7 @@ app
 `- index.html
 ```
 
-## HTML Tree
+## HTML tree
 
 ```html
 .wrapper
@@ -26,11 +26,13 @@ app
         li.nav__item * 6
           a.nav__link
             img.nav__logo * 1
+
   div.feature
     div.feature__header
       img.feature__img-top
       h2.feature__heading
       p.feature__header-desc
+
     ul.feature__list
       li.feature__item * 2
         div.feature__item-img
@@ -43,6 +45,7 @@ app
             p.feature__item-text
           div.feature__item-content-bottom
             img.img__bg
+
       li.feature__item
         div.feature__item-img
           img.img__bg
@@ -56,4 +59,14 @@ app
             img.img__bg
         div.feature__item-img
           img.img__bg
+  
+  div.tweet
+    i.tweet__icon
+    h2.tweet__heading
+      span.tweet__location
+      span.tweet__author
+      time.tweet__time
+    p.tweet__content
+    ul.tweet__pagi
+      li.tweet__pagi-item * 3
 ```

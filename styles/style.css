@@ -233,3 +233,73 @@ button {
 .feature__item-content-bottom {
 	height: 33%;
 }
+
+/* !Tweet */
+.tweet {
+	padding: 12.5rem 1.5rem 7rem;
+	background-color: var(--bg-light);
+	text-align: center;
+}
+
+.tweet__icon { 
+	margin-bottom: 3rem;
+	color: #00aefd;
+	font-size: 4rem;
+}
+
+.tweet__heading {
+	margin-bottom: 2rem;
+	font-size: 1.8rem;
+}
+
+.tweet__location,
+.tweet__author {
+	color: var(--heading);
+	font-weight: bold;
+}
+
+.tweet__time {
+	position: relative;
+	margin-left: 1.5rem;
+	padding-left: 1.5rem;
+
+	color: var(--text);
+	font-weight: 300;
+}
+
+.tweet__time:before {
+	content: "/";
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.tweet__content {
+	max-width: 104.5rem;
+	margin: 0 auto 10rem;
+
+	color: var(--text);
+
+	font-size: 2.4rem;
+	line-height: 1.4;
+	font-style: italic;
+}
+
+.tweet__pagi {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tweet__pagi-item {
+	width: 1.5rem;
+	height: 1.5rem;
+	margin: 0 .5rem;
+
+	border: 1px solid var(--text);
+	border-radius: 5rem;
+}
+
+.tweet__pagi-item.is-active {
+	background-color: var(--text);
+}
