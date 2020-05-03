@@ -69,4 +69,40 @@ app
     p.tweet__content
     ul.tweet__pagi
       li.tweet__pagi-item * 3
+  
+  ul.images
+    li.images__block
+      div.images__block-item
+        div.images__item * 2
+          img.images__item-bg
+          div.images__item-brand
+            img
+            h3.image__item-text
+      div.images__block-item
+        div.images__item
+          img.images__item-bg
+          div.images__item-brand
+            img
+            h3.image__item-text
+
+    li.images__block
+      div.images__item * 2
+        img.images__item-bg
+        div.images__item-brand
+          img
+          h3.image__item-text
+
+    li.images__block
+      div.images__block-item
+        div.images__item * 2
+          img.images__item-bg
+          div.images__item-brand
+            img
+            h3.image__item-text
+      div.images__block-item
+        div.images__item
+          img.images__item-bg
+          div.images__item-brand
+            img
+            h3.image__item-text
 ```
