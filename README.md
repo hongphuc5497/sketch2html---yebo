@@ -108,4 +108,11 @@ app
   
   div.discover
     a.discover__btn
+
+  div.mail
+    img.mail__logo
+    span.mail__text
+    form.mail__form
+      input.mail__form-inp
+      button.mail__form-btn
 ```

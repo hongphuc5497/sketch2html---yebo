@@ -428,3 +428,57 @@ button {
 	background-color: var(--primary);
 	border-color: var(--primary);
 }
+
+/* !Mail */
+.mail {
+	padding: 10rem 1.5rem;
+
+	background-color: white;
+	text-align: center;
+}
+
+.mail__logo {
+	margin: 0 auto 3.5rem;
+}
+
+.mail__text {
+	display: inline-block;
+	margin-bottom: 3.5rem;
+
+	color: var(--text);
+	font-size: 2.4rem;
+	font-style: italic;
+}
+
+.mail__form {
+	max-width: 54rem;
+	margin: 0 auto;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.mail__form-inp {
+	width: 74%;
+	padding: 2.5rem;
+
+	color: var(--input-text);
+	font-size: 2rem;
+	font-style: italic;
+
+	border: 1px solid var(--input-border);
+}
+
+.mail__form-btn {
+	width: 25%;
+
+	color: white;
+	background-color: var(--primary);
+
+	font-size: 2.4rem;
+	font-weight: 300;
+	text-transform: uppercase;
+
+	border: 0;
+	outline: none;
+}
