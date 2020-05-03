@@ -105,4 +105,7 @@ app
           div.images__item-brand
             img
             h3.image__item-text
+  
+  div.discover
+    a.discover__btn
 ```

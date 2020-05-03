@@ -304,7 +304,7 @@ button {
 	background-color: var(--text);
 }
 
-/* !Images */
+/* !Images Shop */
 .images	{
 	height: 53.5rem;
 	display: flex;
@@ -373,7 +373,7 @@ button {
 
 .images__item-brand {
 	display: none;
-	
+
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -395,4 +395,36 @@ button {
 	font-size: 1.6rem;
 	text-transform: uppercase;
 	font-weight: bold;
+}
+
+/* !Discover */
+.discover {
+	padding: 7rem 1.5rem;
+
+	background-color: var(--bg-dark);
+	text-align: center;
+}
+
+.discover__btn {
+	display: inline-block;
+	min-width: 30rem;
+	padding: 2rem;
+
+	color: white;
+
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+
+	border: 1px solid currentColor;
+	box-shadow: none;
+
+	outline: none;
+	transition: .2s linear;
+}
+
+.discover__btn:hover {
+	background-color: var(--primary);
+	border-color: var(--primary);
 }
