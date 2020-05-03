@@ -67,6 +67,7 @@
   }
 }
 
+/* Feature */
 /* !Feature__list */
 @media only screen and (max-width: 1279px) {
   .feature__item-content-top {
@@ -88,5 +89,21 @@
   .feature__item-content-top {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+}
+
+/* !Images Shop */
+@media only screen and (max-width: 767px) {
+  .images {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .images__block {
+    width: 100%;
+  }
+
+  .images__item {
+    height: auto;
   }
 }
