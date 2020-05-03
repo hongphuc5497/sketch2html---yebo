@@ -22,6 +22,13 @@ app
 .wrapper
   header.header
     nav.nav
+      <!-- responsive -->
+      label.btn__collapse
+        i.fa.fa-bars
+      input.inp__collapse
+      div.nav__bg
+      <!--end -->
+
       ul.nav__list
         li.nav__item * 6
           a.nav__link
