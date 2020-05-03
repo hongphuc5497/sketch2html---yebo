@@ -66,3 +66,27 @@
     transform: translateX(0);
   }
 }
+
+/* !Feature__list */
+@media only screen and (max-width: 1279px) {
+  .feature__item-content-top {
+    padding: 0 2rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .feature__item {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .feature .feature__item > .feature__item-img,
+  .feature .feature__item > .feature__item-content {
+    width: 100%;
+  }
+
+  .feature__item-content-top {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
