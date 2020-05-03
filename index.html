@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/fontawesome.css">
   <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles//responsive.css"
 </head>
 
 
@@ -19,9 +20,17 @@
   <div class="wrapper">
     <header class="header">
       <nav class="nav">
+        <!-- Responsive -->
+        <label for="collapse" class="btn__collapse">
+          <i class="fa fa-bars"></i>
+        </label>
+        <input type="checkbox" id="collapse" style="display: none" class="inp__collapse">
+        <div class="nav__bg"></div>
+        <!-- end -->
+
         <ul class="nav__list">
           <li class="nav__item"><a href="javascript:void(0)" class="nav__link">About us</a></li>
-          <li class="nav__item"><a href="javascript:void(0)" class="nav__link">Us</a></li>
+          <li class="nav__item"><a href="javascript:void(0)" class="nav__link">Work</a></li>
           <li class="nav__item"><a href="index.html" class="nav__link">
               <img src="./images/yebo-logo.png" alt="yebo" class="nav__logo" />
             </a></li>
